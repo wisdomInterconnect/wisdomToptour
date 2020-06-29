@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+    <title>My Project</title>
+    
+  </head>
+  <body>
+      <br>
+  
+    <header>
+      <div class="container-fluid ">
+            <div class="tree">
+              <img class="mg" src="image/favicon.png">
+            </div>    
+          <div class="creed">
+            <h2>Wisdom Toptour</h2>
+          <p>... a long lasting experience</p>
+          </div>
+          <nav class= "navbar-nav " >
+            <span class="navbar-toggler icon"></span>
+            <ul class="link">
+              <li class=""><a class="nav-item nav-link active" href="index.html">Home</a></li>
+              <li class=""><a class="nav-item nav-link active" href="about_us.html"> About Us</a></li>
+              <li class=""><a  class="nav-item nav-link active"href="#"> Service </a></li>
+              <li class=""> <a class="nav-item nav-link active" href="contact_us.html"> Contact Us</a></li>
+            </ul>
+          </nav>
+          </div>       
+    </header>
+  <!-- Start WOWSlider.com BODY section -->
+  <div class="wow">
+<div id="wowslider-container1">
+  <div class="ws_images"><ul>
+      <li><img src="data1/images/slider_1.jpg" alt="slider 1" title="slider 1" id="wows1_0"/></li>
+      <li><img src="data1/images/slider_2.jpg" alt="slider 2" title="slider 2" id="wows1_1"/></li>
+      <li><a href="http://wowslider.net"><img src="data1/images/slider_3.jpg" alt="slider jquery" title="slider 3" id="wows1_2"/></a></li>
+      <li><img src="data1/images/slider_4.jpg" alt="slider 4" title="slider 4" id="wows1_3"/></li>
+    </ul></div>
+  <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript photo gallery</a> by WOWSlider.com v8.8</div>
+  <div class="ws_shadow"></div>
+  </div>	
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+</div>
+ <!--contact- form-->
+ <div class="survey-form">
+    <h1>Trip Form</h1>
+    <hr>
+    
+    <form class="nav">
+    <div class="label1">
+    <label for='name'>NAME</label> 
+    <input type="text" placeholder="Full Name" name="name" id="userName"  >
+    </div>
+    <div class="label1">
+    <label for ='email'>EMAIL</label> 
+    <input type="text" placeholder="Email" id="email" name="name">
+    </div>
+    <div class="label2">
+    <label for="age"> AGE</label> 
+    <input type="number" placeholder="AGE" id="age" name="name">
+    </div>
+    <div class="label3">
+        <label for="sex">SEX</label> <input type="radio" id="male" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" id="female" value="male" >Female
+    <input type="radio" name="gender" id="other" value="male" >Other
+    </div>
+</form>
+    <div class="nav1">
+        <label for="courses">Place of Trip</label>
+    <select id="course" required>
+        <option  selected disabled>Select trip destination</option>
+        <option  value="texas">Texas</option>
+        <option value="california">California</option>
+        <option value="washington" >Washingtin Dc</option>
+      </select>
+    </div>
+    <div class="nav2">
+      <label for="description">Description</label>
+      <textarea name="message" id="discription" placeholder="Decription">
+        </textarea>
+    </div>
+    <br>
+    <div class="nav3">
+        <button onclick="surveyorForm()"><h5>SUBMIT</h5></button>
+        <button onclick="displaySurveyor()"><h5>Trip Info</h5></button>
+    </div>
+    <br>
+    <div class="modal" hidden>
+        <table>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Courses Option</th>
+                <th>Description</th>
+                <th id="actionList">Action</th>
+            </tr>
+            <tbody id="populateTable" >
+                
+            </tbody>
+        </table>
+    </div>
+
+      
+
+
+</div>
+
+      <footer>
+        <div class="card-group">
+          <div class="card">
+            <h5>After you are settled, you will be given some tea with herbs in it that will help your reflecting process.
+
+            </h5>
+            <img src="image/begin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quick Link</h5>
+              <p class="card-text">We will sure give you better than your money can buy</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <img src="image/experience-the-world.jpg">
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <h5>When you get to our retreat you will be given space to relax and enjoy nature and the scenery.</h5>
+            <img src="image/relax.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quick Link</h5>
+              <p class="card-text">Contact Us to schedule visit to our Consultant on details our Trip Package.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <img src="image/de-france.jpg">
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <h5>The next part isn’t always easy, you must look in and reflect, often facing emotions you haven’t faced in a while.
+
+            </h5>
+            <img src="image/Reflect.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quick Link</h5>
+              <p class="card-text">With your emotions released you will often feel renewed and whole again with a calmness and joy beyond any words.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <img src="image/experience-the-world.jpg">
+              </small>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5> Design by wisdom interconnect</h5>
+        </div>
+      </footer>
+    
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+    
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

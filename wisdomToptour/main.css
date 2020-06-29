@@ -1,0 +1,199 @@
+.row div{
+    padding: 20px 10px;
+    border: 1px solid;
+
+}
+.jumbotron {
+    background: #aaa;
+    color: white;
+    font-style: italic;
+    font-weight: 100px;
+    font-family: cursive;
+    text-shadow: rebeccapurple;
+    background-image: url(image/pool-explore.jpg);
+}
+.nave{
+    background-color: black;
+    color: blanchedalmond;
+}
+.mg{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+.container-fluid{
+    width: 100% !important;
+    margin: auto !important;
+    display: grid !important;
+    grid-gap: 1em !important;
+    grid-template-columns: 15% 30% 40% !important;
+}
+.link{
+    color: purple;
+}
+.creed h2{
+    color: purple;
+}
+.navbar-nav li{
+    list-style: none;
+    display: inline-block;
+    color: black;
+    padding-right: 10px;
+    margin-right: 38px;
+
+}
+.img-rounded{
+    width: 500px;
+    
+}
+.btn btn-default{
+    background-color: red;
+}
+.con{
+    width: 1100px;
+    margin: auto;
+    height: 500px;
+}
+.hov{
+    width: 500px;
+    display: inline-block;
+    margin-top: 30px;
+
+    
+}
+.fov{
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 80px;
+    
+}
+.con hr{
+
+    width: 500px;
+    border-style: solid;
+    border-color:purple;
+}
+.con h1{
+    color: purple;
+    text
+}
+.container text-muted{
+}
+.container text-muted img{
+    width: 30px;
+    height: 20px;
+}
+
+.rowa{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+}
+.rowb{
+    width: 350px;
+    display: inline-block;
+    padding: 5px;
+}
+.rowb h3{
+    text-align: center;
+    color: purple;
+
+
+}
+.btn btn-primary active{
+    background-color: purple;
+    padding-right: 40px;
+    margin-right: 400px;
+    
+}
+body{
+color: #888888;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.lead{
+    background-image: url(image/pool-explore.jpg);
+}
+.text-muted img{
+    width: 400px;
+    height: 300px;
+
+}
+body{
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.survey-form{
+    background-color: purple;
+    width:100%;
+    margin: auto;
+
+}
+hr{
+    color: ivory;
+    width: 750px;
+}
+.nav{
+    width: 1000px;
+    margin: auto;
+}
+label{
+display: block;
+font-size: medium;
+margin-top: 7px;
+margin-left: 10px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.label1 input{
+    width: 700px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 40px;
+
+}
+.label2 input{
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 40px;
+
+}
+input{
+    color: black;
+    background-color: whitesmoke;
+    margin: 0.5em;
+}
+.label3 input{
+color: tomato;
+    margin-left: 40px;
+}
+.nav1 select{
+    margin-left: 130px;
+    margin-bottom: 90px;
+}
+.nav2 textarea{
+    width: 600px;
+    margin-left: 98px;
+    height: 90px;
+}
+.nav3 h5{
+    font-size: 10px;
+}
+.nav3 button{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5px;
+}
+.list table{
+    background-color: blueviolet;
+    color: white;
+}
+
